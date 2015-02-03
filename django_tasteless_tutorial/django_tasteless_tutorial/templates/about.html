@@ -1,4 +1,7 @@
-{% include 'navigation.html' %}
+{% extends 'base.html' %}
+{% block title %}À Propos - {{ block.super }}{% endblock %}
+{% block content %}
 <h1>À propos</h1>
 
 <p>J'ai réalisé mon site internet avec Django.</p>
+{% endblock %}

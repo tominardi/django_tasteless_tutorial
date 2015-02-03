@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>{% block title %}Mon Super Site{% endblock %}</title>
+</head>
+<body>
+   {% include 'navigation.html' %}
+   {% block content %}
+   {% endblock %}
+   {% include 'navigation.html' %}
+</body>
+</html>

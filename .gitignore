@@ -1,0 +1,43 @@
+*.log
+*.pot
+*.pyc
+local_settings.py
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+covhtml
+htmlcov
+.tox
+nosetests.xml
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Translations
+*.mo
+
+.settings
+db.sqlite3
+.DS_Store
+

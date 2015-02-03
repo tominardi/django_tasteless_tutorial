@@ -84,3 +84,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'django_tasteless_tutorial', 'templates'), )
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'django_tasteless_tutorial', 'static'), )

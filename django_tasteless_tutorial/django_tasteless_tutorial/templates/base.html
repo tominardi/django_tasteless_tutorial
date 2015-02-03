@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE html>{% load staticfiles %}
 <html>
 <head>
-   <title>{% block title %}Mon Super Site{% endblock %}</title>
+    <title>{% block title %}Mon Super Site{% endblock %}</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
 </head>
 <body>
-   {% include 'navigation.html' %}
-   {% block content %}
-   {% endblock %}
-   {% include 'navigation.html' %}
+    {% include 'navigation.html' %}
+    {% block content %}
+    {% endblock %}
+    {% include 'navigation.html' %}
 </body>
 </html>
